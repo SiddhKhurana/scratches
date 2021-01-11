@@ -1,5 +1,4 @@
 {
     "python.linting.enabled": false,
     "python.linting.pylintEnabled": true,
-    "python.autoComplete.extraPaths":["D:\\Downloads\\renpy-7.4.0-sdk"]
 }
