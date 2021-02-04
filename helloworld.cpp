@@ -1,15 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main() {
     int n;
     cin>>n;
     for(int i=1;i<=n;i++){
-        string x = "";
-        for(int j=i;j<=2*i;j++){
-            x += (string)j;
+        for(int j=i;j<2*i;j++){
+            cout<<j;
         }
-        cout<<x<<endl;
+        cout<<endl;
     }
     return 0;
 }
