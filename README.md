@@ -1,1 +1,1 @@
-This is what I made as a documentary of the projects I have made in Python.
+I intended this to be my portfolio but its whatever.
