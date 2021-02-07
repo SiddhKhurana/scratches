@@ -17,6 +17,9 @@ nospace = "".join(iban.split())
 first_4chars = nospace[0:4]
 final = nospace.replace(first_4chars, '')
 final += first_4chars
+if not(iban[:2] in pyletter_dic.keys() and len(iban)==pyletter_dic.get(iban[:2])):
+    print('Character check failed, skipping Digit check')
+    exit()
 
 temp = ''
 for letter in final:

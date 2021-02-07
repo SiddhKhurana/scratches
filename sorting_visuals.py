@@ -15,7 +15,7 @@ def sort():
     window.refresh()
 hlayout1 = [[sg.In(default_text='Enter number of colums',size=(20,12),k='--[NUMROWS]--',)],
             [sg.Button('Generate\nrandom\nArray',size=(6,4),pad=(0,20),k='--[RANDOM]--')],
-            [sg.Graph(canvas_size=(300,300),graph_bottom_left=(0,300),graph_top_right=(300,0),
+            [sg.Graph(canvas_size=(400,300),graph_bottom_left=(0,300),graph_top_right=(300,0),
                       background_color='white',k='--[CANVAS]--')]]
 window = sg.Window('Sort Visualizer',hlayout1)
 while True:
