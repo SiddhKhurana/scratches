@@ -5,7 +5,7 @@ from random import choice
 screen = Screen()
 screen.screensize(1366, 768)
 screen.setup(width=1.0, height=1.0, startx=None, starty=None)
-screen.bgcolor("black")
+screen.bgcolor("white")
 
 
 def star_multiple(turtle):
