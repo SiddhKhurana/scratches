@@ -1,6 +1,6 @@
-from turtle import *
 from itertools import permutations
 from random import choice
+from turtle import *
 
 screen = Screen()
 screen.screensize(1366, 768)
